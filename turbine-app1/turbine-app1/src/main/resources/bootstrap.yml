@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: maurely
+  cloud:
+    config:
+      enabled: false
+    discovery:
+      enabled: false
+  rabbitmq:
+    host: localhost #hystrix_rabbitmq
+    port: 5672
+    username: guest
+    password: guest
